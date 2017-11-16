@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App.Bar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="selectableItemBackground">@null</item>
+        <item name="android:textColor">#87000000</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+
+    <style name="OverflowMenuStyle">
+        <item name="android:popupBackground">@drawable/card</item>
+        <item name="overlapAnchor">true</item>
+        <item name="android:dropDownHorizontalOffset">-15dip</item>
+        <item name="android:dropDownVerticalOffset">10dip</item>
+    </style>
+
+    <style name="App.Title" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorPrimary">@color/color_C62334</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+</resources>

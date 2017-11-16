@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_checked" android:state_checked="true" android:state_pressed="true" />
+    <item android:drawable="@mipmap/ic_unchecked" android:state_checked="false" android:state_pressed="true" />
+    <item android:drawable="@mipmap/ic_unchecked" android:state_checked="false" />
+    <item android:drawable="@mipmap/ic_checked" android:state_checked="true" />
+</selector>

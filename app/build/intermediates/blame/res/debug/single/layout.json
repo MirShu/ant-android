@@ -1,0 +1,774 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_his_share_order.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_his_share_order.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bidding_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_bidding_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_address.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_address.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_partake_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_partake_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_directory.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\layout\\item_directory.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share_order.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_share_order.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_common_head.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_common_head.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_his_share_order.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_his_share_order.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_details.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_account_details.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_payment.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\banner_viewpager.xml",
+        "source": "D:\\AndroidProject\\ant-android\\banner\\build\\intermediates\\bundles\\default\\res\\layout\\banner_viewpager.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_empty_shopcart.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_empty_shopcart.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_baskorder.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_baskorder.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forget_password03.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_forget_password03.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picker_toolbar.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\layout\\picker_toolbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recharge.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_recharge.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_pager.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\layout\\activity_photo_pager.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_integral_detail.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_integral_detail.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_friends.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_friends.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recommend_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_recommend_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_to_announce.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_to_announce.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_obtain_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_obtain_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_winning_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_winning_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_share.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_add_share.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mobile_register.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_mobile_register.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forget_password01.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_forget_password01.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shopcart.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_shopcart.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_share_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_share_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_member_award.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_member_award.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_delete_address_view.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\dialog_delete_address_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_toolbar.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_toolbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_share.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_add_share.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods_type.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_goods_type.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_icon_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\80187873368835b3187df62934db197d4d809d05\\output\\res\\layout\\layout_icon_round_corner_progress_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_announced.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_announced.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recharge_record_empty.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_recharge_record_empty.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_consumer.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_consumer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_commission.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_commission.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_search_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_display_search_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_partake_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_partake_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_search_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_show_search_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_will_confirm.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_will_confirm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_share_order.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_share_order.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_graphic_details.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_graphic_details.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_address.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_edit_address.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopcart_payment.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_shopcart_payment.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_winning.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\dialog_winning.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picker_item_pager.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\layout\\picker_item_pager.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_join_popupwindow.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_join_popupwindow.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_type.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_type.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_baskorder.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_baskorder.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_winning_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_winning_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cloud_records.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_cloud_records.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recharge_log.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_recharge_log.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_address.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_add_address.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_his_not_winning.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_his_not_winning.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_payment_result.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_payment_result.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_picker.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\layout\\activity_photo_picker.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_center.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_personal_center.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hot_search.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_hot_search.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xrefreshview_header.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\56f6bad369109221d7862311629997c4501b6679\\output\\res\\layout\\xrefreshview_header.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modified_nickname.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_modified_nickname.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_recharge.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\dialog_recharge.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_notice.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_main_notice.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\80187873368835b3187df62934db197d4d809d05\\output\\res\\layout\\layout_round_corner_progress_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_specific_commodity.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_specific_commodity.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_present_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_present_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_mobile.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_modify_mobile.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_toast.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_toast.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_update_progress.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_update_progress.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_guess_you_like.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_guess_you_like.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_friends.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_view_friends.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qr_code.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_qr_code.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_text_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\80187873368835b3187df62934db197d4d809d05\\output\\res\\layout\\layout_text_round_corner_progress_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recommend_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_recommend_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_animation.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_animation.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_notification.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_notification.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_myyg_test.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_myyg_test.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_obtain_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_obtain_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_receipt_address.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_my_receipt_address.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_his_winning.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_his_winning.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_data.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_personal_data.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_atms.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_atms.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_his_personal_center.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_his_personal_center.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_shopcart_list.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_shopcart_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_show_search_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_show_search_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading_dialog.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\loading_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_commission.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_commission.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_dialog_progress.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_dialog_progress.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_password.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_modify_password.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_present_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_present_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dmax_spots_dialog.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\dmax_spots_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notice.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_time_text.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_time_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_details.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_goods_details.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_past_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_past_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_dialog_double_button.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\common_dialog_double_button.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_myyg_refresh_header.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_myyg_refresh_header.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_recharge.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_account_recharge.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_dialog.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\common_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_main_head.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_main_head.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_bidding_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_bidding_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recharge.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_recharge.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_consumer.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_consumer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_share_order.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_goods_share_order.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_buy_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_buy_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_goods.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_announced_home.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_announced_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_type.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_goods_type.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_browse.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_web_browse.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_specific_commodity.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_specific_commodity.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_to_announce.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_to_announce.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_notice.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_notice.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xrefreshview_footer.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\56f6bad369109221d7862311629997c4501b6679\\output\\res\\layout\\xrefreshview_footer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_number.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_number.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_photo.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\layout\\item_photo.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_friends.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_friends.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_photo_picker.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\layout\\fragment_photo_picker.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopcart.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_shopcart.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_gif_header.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_gif_header.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods_list.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_goods_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settlement.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_settlement.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_me.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_me.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_consumer.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_consumer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recommend.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_recommend.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forget_password02.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_forget_password02.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_will_confirm.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_will_confirm.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_myyg_refresh_footer.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\view_myyg_refresh_footer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_announced.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_announced.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_guess_you_like.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_guess_you_like.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bidding_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\fragment_bidding_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_buy_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_buy_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\53f1e859b1663c38526614d077b2dccc1034d034\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_email_register.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_email_register.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_share.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_share.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_goods_type.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\item_home_goods_type.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picker_fragment_image_pager.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\layout\\picker_fragment_image_pager.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recharge_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\layout\\activity_recharge_record.xml"
+    }
+]

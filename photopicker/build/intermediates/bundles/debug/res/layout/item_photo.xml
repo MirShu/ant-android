@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myyg.photopicker.widget.SquareItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/photo_bg"
+        android:padding="1dip"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/photo_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/color_70000000"
+        android:padding="1dip"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/v_selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:padding="1dip"
+        android:scaleType="center"
+        android:src="@drawable/photo_checkbox_bg"
+        android:visibility="visible" />
+
+</com.myyg.photopicker.widget.SquareItemLayout>

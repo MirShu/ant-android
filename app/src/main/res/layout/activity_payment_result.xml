@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/include_toolbar"
+        layout="@layout/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include_toolbar"
+        android:background="@color/color_F1EDEA"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="恭喜您,支付成功，请等待系统为您揭晓！"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_see_record"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/common_button_white"
+                android:onClick="onClick"
+                android:text="查看云购记录"
+                android:textSize="16sp"
+                myyg:rd_cornerRadius="5dp" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_continue_shop"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/common_button_red_bg"
+                android:onClick="onClick"
+                android:text="继续云购"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                myyg:rd_cornerRadius="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

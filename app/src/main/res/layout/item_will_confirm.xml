@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view_top"
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/image"
+            android:layout_marginLeft="7dp"
+            android:background="@color/color_DDDDDD" />
+
+        <ImageView
+            android:id="@+id/iv_status"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ic_dot" />
+
+        <View
+            android:id="@+id/view_bottom"
+            android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="7dp"
+            android:background="@color/color_DDDDDD" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ll_left"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_below"
+            style="@style/split_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_DDDDDD" />
+    </LinearLayout>
+</RelativeLayout>

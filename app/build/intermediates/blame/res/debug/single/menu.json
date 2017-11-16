@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_shopcart.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_shopcart.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_preview.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\menu\\menu_preview.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_present_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_present_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_bidding_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_bidding_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_recharge.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_recharge.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_edit_address.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_edit_address.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_picker.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\default\\res\\menu\\menu_picker.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_modified_nickname.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_modified_nickname.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_specific_commodity.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_specific_commodity.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_common_text.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_common_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share_order.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_share_order.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_winning_record.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_winning_record.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_record_address.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_record_address.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_common.xml",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\menu\\menu_common.xml"
+    }
+]

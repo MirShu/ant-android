@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <View
+        style="@style/split_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_goods_img"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/ic_pic_01" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="Cannon 60D佳能单反照相机"
+                android:textColor="@color/color_333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_q_user_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:text="幸运号码：1000000014"
+                android:textColor="@color/color_666666"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_q_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="揭晓时间：2016-03-31 15:23:33"
+                android:textColor="@color/color_666666"
+                android:textSize="12sp" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_share"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_recharge_back"
+                android:text="去晒单"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

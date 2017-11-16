@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="日期"
+            android:textColor="@color/color_333333" />
+
+        <TextView
+            android:id="@+id/tv_ygmoney"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="消费"
+            android:textColor="@color/color_333333" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="用户"
+            android:textColor="@color/color_333333" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="佣金"
+            android:textColor="@color/color_0BBFDC" />
+    </LinearLayout>
+
+    <View
+        style="@style/split_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</LinearLayout>

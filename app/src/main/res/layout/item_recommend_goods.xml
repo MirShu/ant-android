@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_thumb"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/ic_pic_02" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/btn_join_list"
+                android:layout_toRightOf="@+id/iv_thumb"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Apple iPhone6s Plus64G"
+                    android:textSize="12sp" />
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:id="@+id/rc_schedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    myyg:rcBackgroundColor="@color/color_E5E5E5"
+                    myyg:rcBackgroundPadding="0dp"
+                    myyg:rcMax="100"
+                    myyg:rcProgress="85"
+                    myyg:rcProgressColor="@color/color_F95667"
+                    myyg:rcRadius="10dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_zongrenshu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="总需：1600"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_shenyurenshu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:text="剩余：520"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_join_list"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/common_button_red"
+                android:text="加入清单"
+                android:textColor="@color/color_F95667"
+                android:textSize="10sp"
+                myyg:rd_cornerRadius="5dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_ECECEC" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:src="@mipmap/ic_tenyuan_tag" />
+</RelativeLayout>

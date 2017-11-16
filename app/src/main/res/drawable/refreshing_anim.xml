@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@mipmap/ic_anim_0027"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0028"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0029"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0030"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0031"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0032"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0033"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0034"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0035"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ic_anim_0036"
+        android:duration="100" />
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0037"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0038"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0039"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0040"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0041"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0042"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0043"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0044"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0045"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0046"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0047"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0048"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0049"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0050"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0051"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0052"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0053"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0054"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0055"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0056"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0057"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0058"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0059"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0060"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0061"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0062"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0063"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0064"-->
+    <!--android:duration="100" />-->
+    <!--<item-->
+    <!--android:drawable="@mipmap/ic_anim_0065"-->
+    <!--android:duration="100" />-->
+</animation-list>

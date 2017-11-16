@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcbce" />
+
+        <TextView
+            android:id="@+id/tv_announced_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="揭晓通知设置" />
+
+
+        <CheckBox
+            android:id="@+id/set_togglebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:button="@drawable/check_box_bg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_announced_notice"
+            android:layout_marginTop="10dp"
+            android:background="#cdcbce" />
+    </RelativeLayout>
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/rl_self_qadetails"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcbce" />
+
+        <TextView
+            android:id="@+id/tv_commo_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="常见问题" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_arrow_right_white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_commo_problem"
+            android:layout_marginTop="10dp"
+            android:background="#cdcbce" />
+    </com.rey.material.widget.RelativeLayout>
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/rl_version"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcbce" />
+
+        <TextView
+            android:id="@+id/tv_version_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="版本号" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="V1.2.1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_version_number"
+            android:layout_marginTop="10dp"
+            android:background="#cdcbce" />
+    </com.rey.material.widget.RelativeLayout>
+
+    <com.rey.material.widget.RelativeLayout
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcbce" />
+
+        <TextView
+            android:id="@+id/tv_clear_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="清除缓存" />
+
+        <TextView
+            android:id="@+id/tv_cachesize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="360M" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_clear_cache"
+            android:layout_marginTop="10dp"
+            android:background="#cdcbce" />
+    </com.rey.material.widget.RelativeLayout>
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/rl_logout"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcbce" />
+
+        <TextView
+            android:id="@+id/tv_exit_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="退出登录" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_exit_login"
+            android:layout_marginTop="10dp"
+            android:background="#cdcbce" />
+    </com.rey.material.widget.RelativeLayout>
+</LinearLayout>

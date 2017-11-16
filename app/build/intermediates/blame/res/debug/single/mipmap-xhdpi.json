@@ -1,0 +1,338 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_weixin.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_weixin.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_type_07.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_type_07.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_edit.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_edit.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_goodluck.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_goodluck.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_map.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_map.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_arrow_right_white.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_arrow_right_white.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_me_select.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_me_select.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_baskorder_select.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_baskorder_select.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_password.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_password.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_type_02.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_type_02.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_message_center.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_message_center.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_loading_logo.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_loading_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\round_corner_progress_icon.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\80187873368835b3187df62934db197d4d809d05\\output\\res\\mipmap-xhdpi\\round_corner_progress_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_unchecked.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_unchecked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_reward.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_reward.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_search.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_swich_active.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_swich_active.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_type_06.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_type_06.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_announced.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_announced.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_baskorder_bg.9.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_baskorder_bg.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_tenyuan_tag.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_tenyuan_tag.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_baskorder.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_baskorder.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_type_03.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_type_03.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_recharge.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_recharge.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_cart_white.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cart_white.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_checked.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_link.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_link.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_balance.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_balance.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_app_start.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_app_start.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_banner_checked.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_banner_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_time.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_time.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_goods_add.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_goods_add.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_record.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_record.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_action_back.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_action_back.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_page_indicator_focused.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_page_indicator_focused.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_cart.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cart.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_win_close.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_win_close.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_win.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_win.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_delete.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_delete.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_arrow_right.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_arrow_right.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_shopcart_select.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_shopcart_select.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_pay_union.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_pay_union.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_logo_big.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_big.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_share.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_share.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_time.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_time.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_type_05.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_type_05.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_search_white.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_search_white.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_logo.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_me.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_me.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_banner_default.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_banner_default.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_picture_add.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_picture_add.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_type.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_type.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_logo_small.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_small.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_bot_bg.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_bot_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_swich_default.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_swich_default.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_right_arrow.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_right_arrow.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_setting.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_setting.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_shopcart.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_shopcart.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_dot.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_dot.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_arrow.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_arrow.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_pay_weixin.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_pay_weixin.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_home.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_home.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_close.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_close.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_me_icon_qrcode.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_me_icon_qrcode.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_qrcode.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_qrcode.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_all.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_all.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_page_indicator.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_page_indicator.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_qq.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_qq.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_delete.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_delete.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_announced_select.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_announced_select.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_more.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_more.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_user.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_user.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_list_default_lightgray_small.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_list_default_lightgray_small.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_qrcode_white.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_qrcode_white.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_icon_member.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_member.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_tat_top.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_tat_top.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_home_select.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_home_select.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_integral.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_integral.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_weibo.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_weibo.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_type_04.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_type_04.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_action_home.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_action_home.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_default.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_default.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_type_01.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_type_01.png"
+    }
+]

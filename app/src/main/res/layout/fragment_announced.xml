@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_hand"
+        layout="@layout/view_main_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <com.andview.refreshview.XRefreshView
+        android:id="@+id/xrefreshview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_hand">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_announced"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:fadingEdge="none"
+            android:visibility="visible" />
+    </com.andview.refreshview.XRefreshView>
+</RelativeLayout>

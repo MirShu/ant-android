@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_wrap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F4F4F4">
+
+    <include
+        android:id="@+id/include_hand"
+        layout="@layout/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <com.andview.refreshview.XRefreshView
+        android:id="@+id/xrefreshview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_below="@+id/include_hand">
+
+        <com.myyg.widget.extend.ScrollViewEx
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.myyg.banner.CommonBanner
+                        android:id="@+id/cb_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        myyg:canLoop="true" />
+
+                    <ImageView
+                        android:id="@+id/iv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="6dp"
+                        android:src="@mipmap/ic_tenyuan_tag"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_countdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_F4F4F4"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/common_button_red_bg"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_tips"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:text="揭晓倒计时："
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp" />
+
+                        <cn.iwgang.countdownview.CountdownView
+                            android:id="@+id/cv_goods"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/tv_tips"
+                            myyg:isShowDay="false"
+                            myyg:isShowHour="false"
+                            myyg:isShowMillisecond="true"
+                            myyg:isShowMinute="true"
+                            myyg:isShowSecond="true"
+                            myyg:suffixGravity="center"
+                            myyg:suffixTextColor="@android:color/white"
+                            myyg:suffixTextSize="20sp"
+                            myyg:timeTextColor="@android:color/white"
+                            myyg:timeTextSize="20sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.rey.material.widget.TextView
+                            android:id="@+id/tv_status"
+                            style="@style/Material.Drawable.Ripple.Wave.Light"
+                            android:layout_width="60dp"
+                            android:layout_height="24dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/common_button_red"
+                            android:gravity="center"
+                            android:text="进行中"
+                            android:textColor="@color/color_F95667"
+                            android:textSize="12sp"
+                            android:visibility="gone"
+                            myyg:rd_cornerRadius="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp">
+
+                            <TextView
+                                android:id="@+id/tv_goods_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="Apple iPhone6s Plus 64G 颜色随机"
+                                android:textColor="@color/color_333333"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/tv_title2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="颜色随机"
+                                android:textColor="@color/color_F95667"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_join"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_qishu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="304010377期"
+                            android:textColor="@color/color_666666"
+                            android:textSize="12sp" />
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/rpb_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            myyg:rcBackgroundColor="@color/color_E5E5E5"
+                            myyg:rcBackgroundPadding="0dp"
+                            myyg:rcMax="100"
+                            myyg:rcProgress="85"
+                            myyg:rcProgressColor="@color/color_F95667"
+                            myyg:rcRadius="10dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="15dp">
+
+                            <TextView
+                                android:id="@+id/tv_zongrenshu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="总需 7280"
+                                android:textColor="@color/color_666666"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/tv_shenyurenshu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:text="剩余 2200"
+                                android:textColor="@color/color_666666"
+                                android:textSize="12sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rl_go_next"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/gray_bg"
+                            android:padding="5dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/tv_go_next_qishu"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="10dp"
+                                android:layout_toLeftOf="@+id/btn_go_next"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:singleLine="true"
+                                android:text="第20期 正在进行中......"
+                                android:textColor="@android:color/black" />
+
+                            <com.rey.material.widget.Button
+                                android:id="@+id/btn_go_next"
+                                style="@style/Material.Drawable.Ripple.Wave.Light"
+                                android:layout_width="120dp"
+                                android:layout_height="35dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/common_button_red_bg"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:text="查看详情"
+                                android:textColor="@android:color/white"
+                                android:textSize="12sp"
+                                myyg:rd_cornerRadius="5dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/color_F4F4F4"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv_winning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"
+                        myyg:cardBackgroundColor="@android:color/white"
+                        myyg:cardCornerRadius="2dp"
+                        myyg:cardElevation="3dp"
+                        myyg:cardPreventCornerOverlap="true"
+                        myyg:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/black">
+
+                                    <com.myyg.widget.RoundedImageView
+                                        android:id="@+id/riv_q_img"
+                                        android:layout_width="63dp"
+                                        android:layout_height="63dp"
+                                        android:layout_gravity="bottom"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:clickable="true"
+                                        android:onClick="onClick"
+                                        android:scaleType="fitXY"
+                                        android:src="@mipmap/ic_default"
+                                        myyg:riv_border_color="@color/color_F1F1F1"
+                                        myyg:riv_border_width="0dp"
+                                        myyg:riv_corner_radius="90dp"
+                                        myyg:riv_oval="true" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginBottom="30dp"
+                                        android:layout_toRightOf="@+id/riv_q_img"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/tv_q_name"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="获奖者：12*qq.com"
+                                            android:textColor="@android:color/white"
+                                            android:textSize="14sp" />
+
+                                        <TextView
+                                            android:id="@+id/tv_q_uid"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginBottom="5dp"
+                                            android:layout_marginTop="5dp"
+                                            android:text="用户ID：100000032"
+                                            android:textColor="@android:color/white"
+                                            android:textSize="14sp" />
+
+                                        <TextView
+                                            android:id="@+id/tv_q_qishu"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="期号：253"
+                                            android:textColor="@android:color/white"
+                                            android:textSize="14sp" />
+
+                                        <TextView
+                                            android:id="@+id/tv_gonumber"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginBottom="5dp"
+                                            android:layout_marginTop="5dp"
+                                            android:text="本期参与：2530人次"
+                                            android:textColor="@android:color/white"
+                                            android:textSize="14sp" />
+
+                                        <TextView
+                                            android:id="@+id/tv_q_end_time"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="揭晓时间：2016-07-09 12:02:23"
+                                            android:textColor="@android:color/white"
+                                            android:textSize="14sp" />
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="-2dp"
+                                    android:background="@mipmap/ic_bot_bg"
+                                    android:padding="10dp">
+
+                                    <TextView
+                                        android:id="@+id/tv_q_user_code"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_centerVertical="true"
+                                        android:text="幸运码：10001125"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="16sp" />
+
+                                    <com.rey.material.widget.TextView
+                                        android:id="@+id/btn_calculation"
+                                        style="@style/Material.Drawable.Ripple.Wave.Light"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_centerVertical="true"
+                                        android:background="@drawable/button_white_border_red_bg"
+                                        android:clickable="true"
+                                        android:onClick="onClick"
+                                        android:paddingBottom="5dp"
+                                        android:paddingLeft="10dp"
+                                        android:paddingRight="10dp"
+                                        android:paddingTop="5dp"
+                                        android:text="查看计算结果"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="14sp"
+                                        myyg:rd_cornerRadius="5dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="15dp"
+                                android:background="@mipmap/ic_tat_top"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="8dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:ems="1"
+                                    android:paddingBottom="5dp"
+                                    android:paddingLeft="1dp"
+                                    android:text="获奖者"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/tv_join_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/common_button_white"
+                        android:gravity="center"
+                        android:text="您没有参加本期云购噢!"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_join_record"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/common_button_white"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="15dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_user_join_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="您参与了：5人次"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_user_join_codes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:singleLine="true"
+                            android:text="云购号码：1000378 1000378 1000378 1000378 1000378 1000378"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.rey.material.widget.RelativeLayout
+                    android:id="@+id/rv_details_graphic_details"
+                    style="@style/Material.Drawable.Ripple.Wave.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="图文详情"
+                        android:textColor="@color/color_333333"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/ic_arrow_right_white"
+                        android:gravity="center_vertical"
+                        android:text="建议在wifi条件下观看"
+                        android:textColor="@color/color_666666"
+                        android:textSize="12sp" />
+                </com.rey.material.widget.RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/color_E5E5E5" />
+
+                <com.rey.material.widget.RelativeLayout
+                    android:id="@+id/rv_details_to_announce"
+                    style="@style/Material.Drawable.Ripple.Wave.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="往期揭晓"
+                        android:textColor="@color/color_333333"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/ic_arrow_right_white"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/color_666666"
+                        android:textSize="10sp" />
+                </com.rey.material.widget.RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/color_E5E5E5" />
+
+                <com.rey.material.widget.RelativeLayout
+                    android:id="@+id/rv_share_order"
+                    style="@style/Material.Drawable.Ripple.Wave.Light"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@android:color/white"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="晒单分享"
+                        android:textColor="@color/color_333333"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/ic_arrow_right_white"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/color_666666"
+                        android:textSize="10sp" />
+                </com.rey.material.widget.RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/color_E5E5E5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="所有参与记录"
+                        android:textColor="@color/color_333333"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_E5E5E5" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_partake_record"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fadeScrollbars="false"
+                        android:fadingEdge="none"
+                        android:scrollbars="vertical" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.myyg.widget.extend.ScrollViewEx>
+    </com.andview.refreshview.XRefreshView>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_E5E5E5" />
+
+        <RelativeLayout
+            android:id="@+id/rl_join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:visibility="gone">
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_partake"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/common_button_black"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="立即参与"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                myyg:rd_cornerRadius="5dp" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_join"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/btn_partake"
+                android:background="@drawable/common_button_red"
+                android:onClick="onClick"
+                android:text="加入清单"
+                android:textColor="@color/color_F95667"
+                android:textSize="12sp"
+                myyg:rd_cornerRadius="5dp" />
+
+            <ImageView
+                android:id="@+id/iv_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:src="@mipmap/ic_cart" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_next_qishu"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/btn_go_immediately"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="第20期 正在进行中......" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_go_immediately"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/common_button_black"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="立即前往"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                myyg:rd_cornerRadius="5dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

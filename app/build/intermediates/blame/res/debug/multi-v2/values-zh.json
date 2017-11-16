@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,105,150,209,254,313,356,423,476,539,586,656,699",
+                        "endColumns": "49,44,58,44,58,42,66,52,62,46,69,42,41",
+                        "endOffsets": "100,145,204,249,308,351,418,471,534,581,651,694,736"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    }
+]

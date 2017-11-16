@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.LinearLayout
+    style="@style/Material.Drawable.Ripple.Wave.Light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/iv_goods_type"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="3dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_type_01"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/tv_goods_type_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@mipmap/ic_arrow_right"
+            android:text="手机平板"
+            android:textColor="@color/color_333333"/>
+
+        <View
+            style="@style/split_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</com.rey.material.widget.LinearLayout>

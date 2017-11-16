@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\menu\\menu_preview.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\src\\main\\res\\menu\\menu_preview.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\menu\\menu_picker.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\src\\main\\res\\menu\\menu_picker.xml"
+    }
+]

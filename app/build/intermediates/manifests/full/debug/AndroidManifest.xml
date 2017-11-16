@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myyg"
+    android:versionCode="20160817"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 极光推送 -->
+    <permission
+        android:name="com.myyg.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.myyg.permission.JPUSH_MESSAGE" />
+
+    <application
+        android:name="com.myyg.base.BaseApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="@string/umeng_api_key" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="@string/umeng_channel_id" />
+
+        <activity
+            android:name="com.myyg.ui.activity.StartActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 极光消息推送开始 -->
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" />
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.myyg" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" />
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.myyg" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+                <!-- Required  显示通知栏 -->
+                <category android:name="com.myyg" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.myyg.receiver.JPushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- <action android:name="cn.jpush.android.intent.REGISTRATION" /> &lt;!&ndash;Required  用户注册SDK的intent&ndash;&gt; -->
+                <!-- <action android:name="cn.jpush.android.intent.UNREGISTRATION" /> -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required  用户接收SDK消息的intent -->
+                <!-- <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> &lt;!&ndash;Required  用户接收SDK通知栏信息的intent&ndash;&gt; -->
+                <!-- <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> &lt;!&ndash;Required  用户打开自定义通知栏的intent&ndash;&gt; -->
+                <!-- <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> &lt;!&ndash;Optional 用户接受Rich Push Javascript 回调函数的intent&ndash;&gt; -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.myyg" />
+            </intent-filter>
+        </receiver>
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="@string/umeng_channel_id" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="@string/jpush_app_key" />
+        <!-- </>值来自开发者平台取得的AppKey -->
+        <!-- 极光消息推送结束 -->
+        <!-- QQ登录 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1105601600" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.myyg.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.myyg.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.myyg.ui.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.EmailRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.MobileRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.WinningRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.EmptyRechargeRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.RechargeRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.GoodsTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.SpecificCommodityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.BiddingRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.NoticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.MainNoticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.MyReceiptAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.AddAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.PastGoodsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.QRcodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.MemberAwardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ATMsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.PresentRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.IntegralDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.GoodsDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.myyg.ui.activity.FriendsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ForgetPasswordActivity01"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ForgetPasswordActivity02"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ForgetPasswordActivity03"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.GraphicDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.AccountRechargeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.WebBrowseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ShareOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.AddShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.WillConfirmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.PersonalCenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ModifiedNicknameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.GoodsShareOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.HisPersonalCenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.photopicker.PhotoPickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.photopicker.PhotoPagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.RecommendGoodsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.GoodsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.MyygTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.EditAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.SettlementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.PaymentResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ShowSearchGoodsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ModifyMobileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ModifyPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.CommissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.AccountDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.ConsumerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myyg.ui.activity.RechargeActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

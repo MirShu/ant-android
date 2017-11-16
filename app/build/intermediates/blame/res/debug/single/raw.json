@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\circles.gif",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\raw\\circles.gif"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\vertical.gif",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\raw\\vertical.gif"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\horizontal.gif",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\raw\\horizontal.gif"
+    }
+]

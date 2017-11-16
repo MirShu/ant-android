@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_shouhuoren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hsieh Gueik"
+                android:textColor="@color/color_333333" />
+
+            <TextView
+                android:id="@+id/tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="13269083302"
+                android:textColor="@color/color_333333" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_sheng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="省"
+                android:textColor="@color/color_333333" />
+
+            <TextView
+                android:id="@+id/tv_shi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="市"
+                android:textColor="@color/color_333333" />
+
+            <TextView
+                android:id="@+id/tv_xian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="县"
+                android:textColor="@color/color_333333" />
+
+            <TextView
+                android:id="@+id/tv_jiedao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="街道"
+                android:textColor="@color/color_333333" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#f1edea" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@mipmap/ic_checked"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="默认地址"
+                android:textColor="@color/color_C62334" />
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/tv_edit_address"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/tv_delete_address"
+                android:drawableLeft="@mipmap/ic_icon_edit"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="编辑"
+                android:textColor="@color/color_333333" />
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/tv_delete_address"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@mipmap/ic_icon_delete"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="删除"
+                android:textColor="@color/color_333333" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#f1edea" />
+    </LinearLayout>
+</RelativeLayout>

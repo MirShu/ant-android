@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="loadingDialog">
+        <attr name="DialogTitleAppearance" format="reference" />
+        <attr name="DialogTitleText" format="reference|string" />
+        <attr name="DialogSpotColor" format="reference|color" />
+        <attr name="DialogSpotCount" format="integer" />
+        <attr name="DialogTitleSize" format="dimension" />
+        <attr name="DialogTitleColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="refresh_PullRefreshLayout">
+        <attr name="refreshType" format="enum">
+            <enum name="material" value="0" />
+            <enum name="circles" value="1" />
+            <enum name="water_drop" value="2" />
+            <enum name="ring" value="3" />
+            <enum name="smartisan" value="4" />
+        </attr>
+        <attr name="refreshColors" format="reference" />
+        <attr name="refreshColor" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="TimeTextView">
+        <attr name="TimeTextColor" format="reference|color" />
+        <attr name="TimeTextSize" format="dimension" />
+    </declare-styleable>
+</resources>

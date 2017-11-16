@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_dir">share</string>
+    <string name="umeng_api_key">573ec31167e58e7462001c44</string>
+    <string name="umeng_channel_id">googleplay</string>
+    <string name="jpush_app_key">d1f9ee0490064ec228f88f5d</string>
+    <string name="qq_app_key">1105601600</string>
+    <string name="wx_app_id">wx1cfea7c2d3f0f033</string>
+    <string name="wx_app_secret">353c9901e21cc52754c35f32a790bab9</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_head"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_C62334">
+
+    <TextView
+        android:id="@+id/tv_head_left"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/ic_back"
+        android:gravity="center"
+        android:onClick="onGoBack"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_head_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:maxLength="14"
+        android:singleLine="true"
+        android:text="标题"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/btn_head_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:src="@mipmap/ic_more"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_head_right"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="清空"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:visibility="gone" />
+</RelativeLayout>

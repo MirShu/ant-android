@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:teram="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ECECEC"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_hand"
+        layout="@layout/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/rl_common_problem"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:onClick="onClick">
+
+        <TextView
+            android:id="@+id/tv_mani_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="头像"
+            android:textSize="14sp" />
+
+        <com.myyg.widget.RoundedImageView
+            android:id="@+id/riv_avatar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_default"
+            teram:riv_border_color="@color/color_F1F1F1"
+            teram:riv_border_width="0dp"
+            teram:riv_corner_radius="90dp"
+            teram:riv_oval="true" />
+
+        <ImageView
+            android:id="@+id/iv_notic_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_arrow_right_white" />
+
+    </com.rey.material.widget.RelativeLayout>
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/rg_id"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white"
+        android:onClick="onClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="ID"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text=""
+            android:textSize="14sp" />
+    </com.rey.material.widget.RelativeLayout>
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/rl_nick_name"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white"
+        android:onClick="onClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="昵称"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/iv_name"
+            android:text="个性名称"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_arrow_right_white" />
+    </com.rey.material.widget.RelativeLayout>
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/rl_modify_mobile"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="手机号码"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/iv_phone"
+            android:text="手机号码"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_arrow_right_white" />
+    </com.rey.material.widget.RelativeLayout>
+
+    <com.rey.material.widget.RelativeLayout
+        android:id="@+id/rl_modify_password"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:onClick="onClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="修改密码"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_arrow_right_white" />
+    </com.rey.material.widget.RelativeLayout>
+</LinearLayout>

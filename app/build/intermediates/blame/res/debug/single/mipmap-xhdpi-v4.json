@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_banner.jpg",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_banner.jpg"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_fragment_me_banner.jpg",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fragment_me_banner.jpg"
+    }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_api">http://store102288.myyg.com</string>
+    <string name="is_test">true</string>
+    <string name="base_h5">http://mstore102288.myyg.com</string>
+</resources>

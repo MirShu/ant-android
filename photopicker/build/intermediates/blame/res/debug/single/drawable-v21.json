@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\bg_material_item.xml",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\src\\main\\res\\drawable-v21\\bg_material_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\af2559643d7986154961af6f0a919655d525c11d\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

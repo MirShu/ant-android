@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_back.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_back.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_select.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_select.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_camera_grey600_48dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_camera_grey600_48dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_delete_white_24dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_delete_white_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_select_checked.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_select_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_checkbox_blank_grey600_24dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_checkbox_blank_grey600_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_done_white_18dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_done_white_18dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_delete_grey600_24dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_delete_grey600_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_picture_default_lightgray.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_picture_default_lightgray.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_photo_black_48dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_photo_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_check_circle_white_24dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_check_circle_white_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\checkbox_marked.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\checkbox_marked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_select_red_checked.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_select_red_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_camera_black_48dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_camera_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_local_see_white_24dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_local_see_white_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_broken_image_black_48dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_broken_image_black_48dp.png"
+    }
+]

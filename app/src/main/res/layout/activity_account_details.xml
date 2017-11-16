@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F4F4F4"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_hand"
+        layout="@layout/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可用余额：" />
+
+        <TextView
+            android:id="@+id/tv_total_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00元" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:id="@+id/ll_consumer"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/tv_consumer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="消费明细"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_total_consumer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="(消费总金额：￥0.00)"
+                    android:textColor="@color/color_BBBBBB"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                style="@style/split_horizontal"
+                android:layout_width="0.5dp"
+                android:layout_height="50dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_recharge"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/tv_recharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="充值明细"
+                    android:textColor="@color/color_999999"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_total_recharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="(充值总金额：￥0.00)"
+                    android:textColor="@color/color_BBBBBB"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view_consumer"
+                style="@style/split_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@color/colorAccent" />
+
+            <View
+                android:id="@+id/view_recharge"
+                style="@style/split_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:scrollbars="none">
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@android:id/tabcontent"
+            android:layout_weight="0.0"
+            android:tabStripEnabled="false"
+            android:visibility="gone" />
+    </TabHost>
+</LinearLayout>

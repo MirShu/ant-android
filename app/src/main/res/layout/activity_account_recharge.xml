@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_hand"
+        layout="@layout/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c9caca">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="您当前账户余额:" />
+
+        <TextView
+            android:id="@+id/tv_money_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="0.00"
+            android:textColor="@color/color_C62334" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="元" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_twenty_yuan"
+            style="@style/Material.Drawable.Ripple.Touch"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/money_charge_tv_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="20元"
+            android:textColor="@color/color_01040D" />
+
+        <TextView
+            android:id="@+id/tv_fifty_yuan"
+            style="@style/Material.Drawable.Ripple.Touch"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/money_charge_tv_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="50元"
+            android:textColor="@color/color_01040D" />
+
+        <TextView
+            android:id="@+id/tv_hundred_yuan"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/money_charge_tv_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="100元"
+            android:textColor="@color/color_01040D" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_two_hundred_yuan"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/money_charge_tv_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="200元"
+            android:textColor="@color/color_01040D" />
+
+        <TextView
+            android:id="@+id/tv_five_hundred_yuan"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/money_charge_tv_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="500元"
+            android:textColor="@color/color_01040D" />
+
+        <EditText
+            android:id="@+id/et_money"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/money_charge_tv_bg"
+            android:cursorVisible="false"
+            android:hint="输入金额"
+            android:inputType="numberDecimal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c9caca"
+        android:padding="15dp"
+        android:text="选择充值方式" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_wx_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_pay_weixin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/ic_pay_weixin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/iv_pay_weixin"
+                    android:text="微信支付" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="5dp"
+                android:background="#e1e1e1" />
+
+            <RelativeLayout
+                android:id="@+id/rl_union_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_pay_union"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/ic_pay_union" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/iv_pay_union"
+                    android:text="银联支付" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="5dp"
+                android:background="#e1e1e1" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rg_payment_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/rb_wx_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_button_bg"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/rb_union_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:background="@drawable/radio_button_bg"
+                android:button="@null" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+    <com.rey.material.widget.Button
+        android:id="@+id/btn_recharge"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/common_button_red_bg"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="确认充值"
+        android:textColor="@color/color_F1F1F1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        myyg:rd_cornerRadius="5dp" />
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_shopcart_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.andview.refreshview.XRefreshView
+        android:id="@+id/xrefreshview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_shopcart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:fadingEdge="none"
+            android:visibility="visible" />
+    </com.andview.refreshview.XRefreshView>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            style="@style/split_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="共1件商品，总计：10元"
+                    android:textColor="@color/color_333333" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="云购有风险，参与请谨慎"
+                    android:textColor="@color/color_9B9796" />
+            </LinearLayout>
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_balance"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/common_button_black"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="结算"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                myyg:rd_cornerRadius="5dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

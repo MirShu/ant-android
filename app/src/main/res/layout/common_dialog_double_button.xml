@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@mipmap/ic_common_dialog_bg">
+
+    <LinearLayout
+        android:id="@+id/ll_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="您的标题"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:paddingTop="20dp"
+            android:text="1. 内容提示项一\n2. 内容提示项二\n3.内容提示项三\n4.内容提示项四\n4.内容提示项四"
+            android:textColor="@color/text_color_dark"
+            android:textSize="14dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/blank_horizontal_divide"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@+id/ll_dialog"
+        android:layout_marginTop="10dp"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/blank_horizontal_divide"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/common_dialog_button"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/text_color_dark"
+            android:textSize="14dp" />
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="fill_parent"
+            android:background="@color/gainsboro" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/common_dialog_button"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,254 @@
+[
+    {
+        "outputFile": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 44,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 44,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 58,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endColumn": 58,
+                        "endOffset": 204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 44,
+                    "endOffset": 249
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 44,
+                        "endOffset": 249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 254,
+                    "endColumn": 58,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endColumn": 58,
+                        "endOffset": 308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 42,
+                    "endOffset": 351
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 313,
+                        "endColumn": 42,
+                        "endOffset": 351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 356,
+                    "endColumn": 66,
+                    "endOffset": 418
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 356,
+                        "endColumn": 66,
+                        "endOffset": 418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 423,
+                    "endColumn": 52,
+                    "endOffset": 471
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 423,
+                        "endColumn": 52,
+                        "endOffset": 471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 476,
+                    "endColumn": 62,
+                    "endOffset": 534
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 476,
+                        "endColumn": 62,
+                        "endOffset": 534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 539,
+                    "endColumn": 46,
+                    "endOffset": 581
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 539,
+                        "endColumn": 46,
+                        "endOffset": 581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 586,
+                    "endColumn": 69,
+                    "endOffset": 651
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 586,
+                        "endColumn": 69,
+                        "endOffset": 651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 656,
+                    "endColumn": 42,
+                    "endOffset": 694
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 656,
+                        "endColumn": 42,
+                        "endOffset": 694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 699,
+                    "endColumn": 41,
+                    "endOffset": 736
+                },
+                "from": {
+                    "file": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 699,
+                        "endColumn": 41,
+                        "endOffset": 736
+                    }
+                }
+            }
+        ]
+    }
+]

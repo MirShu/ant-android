@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_pic_01.jpg",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-mdpi\\ic_pic_01.jpg"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_pic_02.jpg",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-mdpi\\ic_pic_02.jpg"
+    }
+]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_wrap"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="猜您喜欢"
+        android:textColor="@color/color_666666"
+        android:textSize="15sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_like"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:visibility="visible" />
+</LinearLayout>

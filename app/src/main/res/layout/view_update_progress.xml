@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_round_corner_gray"
+    android:maxWidth="300dp"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="正在下载新版本,请稍等..."
+        android:textColor="@color/text_color_dark" />
+
+    <ProgressBar
+        android:id="@+id/update_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:progressDrawable="@drawable/common_progressbar" />
+
+    <TextView
+        android:id="@+id/update_progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:text="0.05M/12.25M"
+        android:textColor="@color/colorAccent" />
+
+    <View
+        android:id="@+id/blank_horizontal_divide"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/blank_horizontal_divide"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/common_dialog_button"
+            android:gravity="center"
+            android:text="取消下载"
+            android:textColor="@color/colorAccent"
+            android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_default"
+            android:layout_width="156dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_anim_0023" />
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="156dp"
+            android:layout_height="120dp"
+            android:background="@drawable/refreshing_anim"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

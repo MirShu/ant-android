@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:teram="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <com.myyg.widget.RoundedImageView
+        android:id="@+id/riv_user_photo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_default"
+        teram:riv_border_color="@color/color_F1F1F1"
+        teram:riv_border_width="0dp"
+        teram:riv_corner_radius="90dp"
+        teram:riv_oval="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/riv_user_photo"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="shiyuan***@126.com"
+                android:textColor="@color/color_F95667"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="05-25 15:54"
+                android:textColor="@color/color_666666"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_baskorder_bg"
+            android:orientation="vertical"
+            android:paddingLeft="35dp"
+            android:paddingTop="13dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="太开心了，意外惊喜"
+                android:textColor="@color/color_333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_goods_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Apple iPod Shuffle"
+                android:textColor="@color/color_666666"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_qishu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="期号：305968540"
+                android:textColor="@color/color_666666"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:text="实在太开心，非常激动！感谢蚂蚁给我中奖的机会！太开心了，以后继续支持噢！"
+                android:textColor="@color/color_333333"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

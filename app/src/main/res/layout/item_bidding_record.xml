@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/iv_goods_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_pic_02" />
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#9039b44a"
+                    android:gravity="center"
+                    android:text="已揭晓"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_goods_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:lines="2"
+                    android:text="Apple iPhone6s Plus 64G"
+                    android:textColor="@color/color_333333" />
+
+                <TextView
+                    android:id="@+id/tv_qishu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="期号：303160886"
+                    android:textColor="@color/color_333333"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_join_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="我已参与：10人次"
+                        android:textColor="@color/color_333333"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:clickable="true"
+                        android:text="查看详情"
+                        android:textColor="@color/color_0171BB"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            style="@style/split_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="15dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom_underway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/btn_append">
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:id="@+id/rpb_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_marginBottom="5dp"
+                    myyg:rcBackgroundColor="@color/color_E5E5E5"
+                    myyg:rcBackgroundPadding="0dp"
+                    myyg:rcMax="100"
+                    myyg:rcProgress="85"
+                    myyg:rcProgressColor="@color/color_F95667"
+                    myyg:rcRadius="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_zongrenshu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/rpb_progress"
+                    android:text="总需 7280"
+                    android:textColor="@color/color_666666"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_shenyurenshu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/rpb_progress"
+                    android:text="剩余 320"
+                    android:textColor="@color/color_666666"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_append"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/common_button_black"
+                android:text="追加"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                myyg:rd_cornerRadius="5dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom_announced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_winner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="获得者：今天要中"
+                android:clickable="true"
+                android:textColor="@color/color_333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_frequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@+id/btn_buy_again"
+                android:text="8人次"
+                android:textColor="@color/color_333333"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/btn_buy_again"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/common_button_red"
+                android:clickable="true"
+                android:text="再次购买"
+                android:textColor="@color/color_F95667"
+                android:textSize="12sp"
+                myyg:rd_cornerRadius="5dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_tenyuan_tag" />
+</RelativeLayout>

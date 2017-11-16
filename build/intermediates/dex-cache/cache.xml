@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\photopicker\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="314f1f5fb0c8914e318c6221e0e43972fd006847">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\classes_c1c25d731350ba48da3ea117cb90404e4395de1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\app\libs\open_sdk_r5756.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f7bf100e53d9099032f113728725e1843e1fbe2">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\open_sdk_r5756_972174bdec9b9d6f36aa90a7d1e1d326feef7e5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\6e4e4212c684ec62b3be2dfc2f3ccc87711049ec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\classes_3d3b272ca8de76d90b0d1d1f586c77dfcbcbd2ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.jakewharton\disklrucache\2.0.2\93b399470e72c0bc8cb52379943b63c9aa586cd8\disklrucache-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\disklrucache-2.0.2_b3d0348cfb2f73c8dbed385ddcea07e68397f3e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\app\libs\libammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\libammsdk_706b7890d80271f5ddbd64b6a04e013257ed5ef4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\banner\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3992470f06d42250a3fc537b7e4e9891f436218b">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\classes_20ad49cfa0a213ceef5ccd385a2babf6a9157375.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14_76fffef2e6797c22e71d1fdca122df765a34cc13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\09c2aef9c3e6e5455cf8ca4cac8dee7eba9d1ccf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c124ce93cb9ff9a8e1834d02cf656a66981077d6">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\classes_c54fdb666c82f88107a22f1c38e4cda3c5999500.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.0\a7537446a030da8eb0da4c71424d16c2589f6c4a\glide-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\glide-3.6.0_a33cdcfe2ddddeaa15ea49d4ea355b4fd20ea1f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\80187873368835b3187df62934db197d4d809d05\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88c6386ad8356b89487b43bcaae4827b1abe999c">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\classes_e9e2174698db2925bcf641e3c3e8e51a2fc25cd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\app\libs\core-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="80a402b12accd66d4be7e5dbcb44e42baa0bdd7c">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\core-2.3.0_7f9d803bfa48ed9734bb244e9d9f0f763e6fe50a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\app\libs\jpush-android-2.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38dd284400de7ff5fab09098a1b8fd30cc5980c7">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\jpush-android-2.1.7_9f28dcbc2f9f9f16cb0b421b3a0d1a0fe41ac6f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\d54d0be1bec901eae8a4efe19aeaa8a6f2056d83\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\classes_3702d79ca046f7d7a754ca557864d43955029440.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\app\libs\mta-sdk-1.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\mta-sdk-1.6.2_d612735ea0d0101f30968532b8aedfeed2afee53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidProject\ant-android\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\AndroidProject\ant-android\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_2c2cb1f17b90b06ea4d7b3b4a00b17798e15e03d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,229 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_head"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/black">
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:src="@mipmap/ic_search" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_logo" />
+
+            <ImageView
+                android:id="@+id/iv_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="onClick"
+                android:src="@mipmap/ic_user" />
+        </RelativeLayout>
+
+        <com.andview.refreshview.XRefreshView
+            android:id="@+id/xrefreshview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            myyg:autoRefresh="false">
+
+            <com.myyg.widget.extend.ScrollViewEx
+                android:id="@+id/sv_wrap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.myyg.banner.CommonBanner
+                        android:id="@+id/cb_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="10dp"
+                        myyg:canLoop="true" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_goods_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="10dp"
+                        android:fadeScrollbars="false"
+                        android:fadingEdge="none"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+
+                    <View
+                        style="@style/split_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:background="@color/color_BFBFBF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:drawableLeft="@mipmap/ic_logo_small"
+                                android:drawablePadding="10dp"
+                                android:text="最新揭晓"
+                                android:textSize="16dp" />
+
+                            <ImageView
+                                android:id="@+id/iv_announced"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:src="@mipmap/ic_arrow" />
+                        </RelativeLayout>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv_announced"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fadeScrollbars="false"
+                            android:fadingEdge="none"
+                            android:overScrollMode="never"
+                            android:scrollbars="none"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/split_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:background="@color/color_BFBFBF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:drawableLeft="@mipmap/ic_logo_small"
+                                android:drawablePadding="10dp"
+                                android:text="推荐商品"
+                                android:textSize="16dp" />
+
+                            <ImageView
+                                android:id="@+id/iv_recommend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:src="@mipmap/ic_arrow" />
+                        </RelativeLayout>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv_recommend"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fadeScrollbars="false"
+                            android:fadingEdge="none"
+                            android:overScrollMode="never"
+                            android:scrollbars="none"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/split_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:background="@color/color_BFBFBF" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_goods"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:clickable="true">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:drawableLeft="@mipmap/ic_logo_small"
+                                android:drawablePadding="10dp"
+                                android:text="购物专区"
+                                android:textSize="16dp" />
+
+                            <ImageView
+                                android:id="@+id/iv_goods"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:src="@mipmap/ic_arrow" />
+                        </RelativeLayout>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv_goods"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fadeScrollbars="false"
+                            android:fadingEdge="none"
+                            android:overScrollMode="never"
+                            android:scrollbars="none"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.myyg.widget.extend.ScrollViewEx>
+        </com.andview.refreshview.XRefreshView>
+    </LinearLayout>
+</FrameLayout>

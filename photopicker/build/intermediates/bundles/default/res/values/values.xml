@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_000000">#000000</color>
+    <color name="color_70000000">#70000000</color>
+    <color name="color_C62334">#c62334</color>
+    <color name="picker_black_40">#282828</color>
+    <color name="picker_common_primary">#f3f3f3</color>
+    <color name="picker_pager_bg">#CA000000</color>
+    <color name="picker_selected_bg">#44000000</color>
+    <color name="picker_text_120">#787878</color>
+    <color name="picker_text_40">#282828</color>
+    <color name="picker_text_80">#505050</color>
+    <dimen name="item_camera_size">80dip</dimen>
+    <dimen name="item_photo_size">80dip</dimen>
+    <dimen name="iwf_actionBarSize">48dip</dimen>
+    <string name="picker_all_image">All Images</string>
+    <string name="picker_cancel">Cancel</string>
+    <string name="picker_confirm_to_delete">Confirm to delete?</string>
+    <string name="picker_delete">Delete</string>
+    <string name="picker_deleted_a_photo">Deleted a photo</string>
+    <string name="picker_done">Done</string>
+    <string name="picker_done_with_count">Done(%1$d/%2$d)</string>
+    <string name="picker_image_count">%1$d</string>
+    <string name="picker_image_index">%1$d/%2$d</string>
+    <string name="picker_images">Images</string>
+    <string name="picker_over_max_count_tips">Up to %1$d photos can be selected</string>
+    <string name="picker_undo">Undo</string>
+    <string name="picker_yes">Yes</string>
+    <style name="App.Bar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="selectableItemBackground">@null</item>
+        <item name="android:textColor">#87000000</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+    <style name="App.Title" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorPrimary">@color/color_C62334</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+    <style name="OverflowMenuStyle">
+        <item name="android:popupBackground">@drawable/card</item>
+        <item name="overlapAnchor">true</item>
+        <item name="android:dropDownHorizontalOffset">-15dip</item>
+        <item name="android:dropDownVerticalOffset">10dip</item>
+    </style>
+</resources>

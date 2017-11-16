@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_border"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_goods_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_pic_02" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Apple iPhone6s Plus 64G"
+                android:textColor="@color/color_333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_qishu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="3dp"
+                android:text="期号：0094879"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_announced"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:drawableLeft="@mipmap/ic_time"
+                    android:drawablePadding="5dp"
+                    android:text="即将揭晓"
+                    android:textColor="@color/color_C62334"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <cn.iwgang.countdownview.CountdownView
+                        android:id="@+id/cv_goods"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        myyg:isShowDay="false"
+                        myyg:isShowHour="false"
+                        myyg:isShowMillisecond="true"
+                        myyg:isShowMinute="true"
+                        myyg:isShowSecond="true"
+                        myyg:suffixGravity="center"
+                        myyg:suffixTextColor="@color/color_C62334"
+                        myyg:suffixTextSize="16sp"
+                        myyg:timeTextColor="@color/color_C62334"
+                        myyg:timeTextSize="16sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_winning_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="3dp">
+
+                <TextView
+                    android:id="@+id/tv_q_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="获得用户：不中就不玩了"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_q_user_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="幸运号码：1000850"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_tenyuan_tag" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_camera_black_48dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_camera_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_broken_image_black_48dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_broken_image_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_checkbox_blank_grey600_24dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_checkbox_blank_grey600_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_photo_black_48dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_photo_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_delete_grey600_24dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_delete_grey600_24dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\checkbox_marked.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\checkbox_marked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_camera_grey600_48dp.png",
+        "source": "D:\\AndroidProject\\ant-android\\photopicker\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_camera_grey600_48dp.png"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\round_corner_progress_icon.png",
+        "source": "C:\\Users\\user\\.android\\build-cache\\80187873368835b3187df62934db197d4d809d05\\output\\res\\mipmap-mdpi\\round_corner_progress_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_loading_default.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-mdpi\\ic_loading_default.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\ant-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_app_start.png",
+        "source": "D:\\AndroidProject\\ant-android\\app\\src\\main\\res\\mipmap-mdpi\\ic_app_start.png"
+    }
+]

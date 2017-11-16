@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.iwgang:countdownview-2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/countdownview-2.0.aar/0b7b8e01219a7acad8b5c3bd9cd82050/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/countdownview-2.0.aar/0b7b8e01219a7acad8b5c3bd9cd82050/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.iwgang/countdownview/2.0/d18cf7538db0bd63fcd5b1ec58f2051c51725540/countdownview-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

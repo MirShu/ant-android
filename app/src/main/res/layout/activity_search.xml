@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/include_hand"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/search_edittext_bg"
+            android:drawableLeft="@mipmap/ic_search_white"
+            android:drawablePadding="10dp"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColorHint="@color/color_ECECEC"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:onClick="onClick"
+            android:text="取消" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#b2b2b2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1edea"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:text="热门搜索"
+        android:textColor="#b1b1b1" />
+
+    <com.myyg.widget.FlowLayout
+        android:id="@+id/id_flowlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#f1edea"
+        android:padding="15dp" />
+
+</LinearLayout>

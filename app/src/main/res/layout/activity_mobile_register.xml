@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myyg="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec">
+
+    <include
+        android:id="@+id/include_hand"
+        layout="@layout/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/include_hand"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_phone_num_edittext_bg"
+        android:hint="请输入手机号码"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:padding="10dp"
+        android:textColorHint="#ececec"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_mobile"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_verifycode"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_phone_num_edittext_bg"
+            android:hint="输入验证码"
+            android:inputType="numberSigned"
+            android:maxLength="6"
+            android:padding="10dp"
+            android:textColorHint="#ececec"
+            android:textSize="16sp" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/btn_send_code"
+            style="@style/Material.Drawable.Ripple.Wave.Light"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_button_bg"
+            android:onClick="onClick"
+            android:text="获取验证码"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            myyg:rd_cornerRadius="5dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ll_input_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_phone_num_edittext_bg"
+        android:hint="请输入您密码"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#ececec"
+        android:textSize="16sp" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/btn_register"
+        style="@style/Material.Drawable.Ripple.Wave.Light"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/mobile_phone_register_button_bg"
+        android:onClick="onClick"
+        android:text="立即注册"
+        android:textColor="@color/color_F1F1F1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        myyg:rd_cornerRadius="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_register"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/cb_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:gravity="center_vertical"
+                android:text="我同意" />
+
+            <TextView
+                android:id="@+id/tv_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="蚂蚁云购用户服务协议"
+                android:textColor="@color/color_0171BB" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
